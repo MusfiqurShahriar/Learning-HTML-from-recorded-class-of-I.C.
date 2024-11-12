@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+    <style>
+        .odd {color:mediumslateblue;}
+    </style>
+    <style>
+        .title
+        {
+            color: rebeccapurple;
+    text-align: right;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif , serif;  
+        }
+    </style>
+</head>
+<body>
+    <h1>Html tutorial Interactive Care</h1>
+
+
+    <h4>01. HTML Elements and Comment</h4>
+    <!--comment-->
+    <P>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia distinctio rerum suscipit corrupti corporis labore magnam cupiditate perspiciatis non earum repudiandae explicabo mollitia, natus culpa. Quidem, sint molestiae. Explicabo, minus!
+    </P>
+
+
+    <h4>03. Attributes in HTML</h4>
+    <!--key="value"--><!--it's the formate of attributes-->
+    <h5 title="My Custom Tyle" style="color: blue;"> Application of Attributes
+    </h5> 
+    <p class="odd">Pera one</p>
+    <p>Pera two</p>
+    <p class="odd">Pera three</p>
+
+
+    <h4>07. Style Attribute</h4>
+    <!--there are three types of CSS. They are inline CSS, internal CSS as inline formate and external CSS which is used in head as link-->
+    <h3 style="color: rebeccapurple;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        Example of inline CSS.
+    </h3>
+    <h3 class="title">
+        Example of internal CSS.
+    </h3>
+
+
+
+    <h4>08.HTML Formatting</h4>
+    <p>This is a simple paragraph</p><br>
+    <b>Bold Text</b><br>
+    <strong>Important Text</strong><br>
+    <i>Italic Text</i><br>
+    <em>Emphasized Text</em><br>
+    <mark>Marked Text</mark><br>
+    <del>Deleted Text</del><br>
+    <ins>Inserted Text</ins><br>
+    <p>
+        <small>DATE: 12/11/2024 by <a href="#">Musfiqur Shahriar</a> </small> 
+    </p>
+    <p>
+        <mark>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</mark> <del>Itaque</del> <ins>Unique</ins> veniam ratione doloremque. Sint, voluptatem eligendi.
+        You<sup>are</sup>My<sub>love</sub>
+    </p>
+
+
+
+    <h4>09. Quotation, Address, Abbr</h4>
+    <!--qoutation tag-->
+    <q>Honesty is the best policy.</q>
+    <!--blockquote tag-->
+    <blockquote>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores beatae id aut harum adipisci molestias. Voluptatem illum ipsam alias? Alias.
+    </blockquote>
+    <!--cite tag-->
+    <p>
+        <cite>Ebong Himu</cite> by Humayun Ahmaed
+    </p>
+    <!--address tag-->
+    <address>
+        Pangsha,<br>Rajbari,<br>Dhaka.
+    </address>
+    <!--abbriviation tag-->
+    <p>
+        World cup is organized by <abbr title="International Cricket Council">ICC</abbr> <br>
+        <abbr title="Bangladesh Crickrt Board">BCB</abbr>
+    </p>
+
+
+
+    <h4>10.HTML Comments</h4>
+    <p>
+        To comment a specific part of text we must select that part of text and then we should type control(crlt)+forword slash(/). At the same way we can also remove the comment.
+        It,s important for debugging.
+    </p>
+
+
+    <h4>11.HTML Links</h4>
+<a href="Menu/about.html">About</a>
+<a href="Menu/contacts.html">Contact</a>
+<a href="Menu/services.html">Services</a><br>
+<a href="https://www.google.com/" target="_blank">Google</a>
+
+
+<h4>12.HTML Images</h4>
+<img src="https://dims.apnews.com/dims4/default/3835f98/2147483647/strip/true/crop/3000x2001+0+0/resize/767x512!/format/webp/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fafs-prod%2Fmedia%2F74b806be6c864939a551ab69f9233e90%2F3000.jpeg" alt="Messi" width="300">
+<img src="./Images/cr7.jpeg" alt="Ronaldo">
+
+
+
+<h4>13. HTML List</h4>
+<!--there are three types of list. They are: Ordered list, Unordered list and Description list-->
+<ol>
+    <li>Item one </li>
+    <li>Item two </li>
+    <li>Item three </li>
+    <li>Item Four </li>
+</ol>
+
+<ul>
+    <li>Item one</li>
+    <li>Item two </li>
+    <li>Item three </li>
+    <li>Item Four </li>
+</ul>
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Hyper Text Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+</dl>
+<!--dl=description list, dt=description title, dd=decription details-->
+
+
+
+<h4>14. HTML Table</h4>
+<table border="1"; style="border-collapse: collapse;border-color: blue;">
+    <thead>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Certificate</th>
+        <th>Institute</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mushfiqur</td>
+            <td>mushi@gmail.com</td>
+            <td>B.Sc.</td>
+            <td rowspan="3">PUST</td>
+        </tr>
+        <tr>
+            <td>Siam</td>
+            <td>siam@gmail.com</td>
+            <td>B.Sc.</td>
+        </tr>
+        <tr>
+            <td>Ibrahim</td>
+            <td>ibrahim@gmail.com</td>
+            <td>B.Sc.</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center;">Year: 2027</td>
+        </tr>
+    </tbody>
+</table><br>
+
+
+
+<h4>16. HTML iFrame</h4>
+<!--embade any website-->
+<iframe src="https://interactivecares.com/" frameborder="0" width="100%" height="600"> </iframe>
+<!--embade any youtube video-->
+<iframe width="600" height="350" src="https://www.youtube.com/embed/YjhkcvS1xKU?si=ahJSQGFTAcG0CB7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</body>
+</html>
