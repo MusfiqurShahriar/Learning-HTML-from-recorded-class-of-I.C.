@@ -17,10 +17,7 @@
         }
     </style>
     <style>
-        div 
-        {
-            border: 4px solid black;
-        }
+    
         span
         {
             color: tomato;
@@ -197,7 +194,7 @@
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span style="color: orange;"> recusandae qui eligendi voluptate dolorum laudantium aliquid ut ducimus id? </span> Corrupti labore quisquam ipsum possimus obcaecati et laboriosam atque adipisci velit?
     </div>
     <br>
-    <div> <!--this div and span is styled in head-->
+    <div style="border:4px solid black"> <!--this span is styled in head and div is styled here-->
         Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Obcaecati ducimus vel in harum voluptatibus numquam distinctio ipsam maiores eos accusantium!</span>
     </div>
 </p>
@@ -230,6 +227,76 @@
 <footer>
     <p>&copy; All Rights are Reserved</p>
 </footer>
+
+
+
+<h4>119. HTML Form and Inputs</h4>
+<form>
+    <div>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" placeholder="Musfiqur Shahriar">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="yourname@gmail.com">
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+    </div>
+    <div>
+        <label for="color">Choose Your Favourite Color:</label>
+        <input type="color" id="color">
+    </div>
+    <div>
+        <label for="date">Date:</label>
+        <input type="date" id="date">
+    </div>
+    <div>
+        <label for="number">Quantity:</label>
+        <input type="number" id="number">
+    </div>
+    <div>
+        <label for="mobile">Mobile Number:</label>
+        <input type="mobile" id="mobile">
+    </div>
+    <div>
+        <label for="week">Week Number:</label>
+        <input type="week" id="week">
+    </div>
+    <div>
+        <input type="range">
+    </div>
+    <input type="file" name="" id=""> <br><br>
+    <input type="submit" value="Submit"> <br> <br>
+    <input type="button" value="Click Me"> 
+    <input type="submit" value="Click Here">
+    <div>
+        <p>Your Favourite Language</p>
+        <input type="radio" name="" id="">
+        <label for="">HTML</label> <br>
+        <input type="radio" name="" id="css">
+        <label for="css">CSS</label> <br>
+        <input type="radio" name="" id="java">
+        <label for="java">JavaScript</label>
+    </div>
+    <div>
+        <p>Your Obtained Degree</p>
+        <input type="radio" name="Degree" id="ssc">
+        <label for="ssc">SSC</label> <br>
+        <input type="radio" name="Degree" id="hsc">
+        <label for="hsc">HSC</label> <br>
+        <input type="radio" name="Degree" id="bsc">
+        <label for="bsc">B.Sc.</label>
+    </div> 
+    <br>
+    
+</form>
+<br>
+<div>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Musfiqur">
+</div>
 
 </body>
 </html>
